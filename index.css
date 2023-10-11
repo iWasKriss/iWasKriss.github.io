@@ -1,0 +1,31 @@
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 5rem;
+  background-color: aliceblue;
+}
+.navbar ul,
+a {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  margin-left: 3rem;
+  font-size: 1.3rem;
+}
+.navbar h1 {
+  color: rgb(214, 119, 119);
+  font-size: 2.2rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.grid img {
+  width: 800px;
+  border: 1px solid red;
+  margin-bottom: 1rem;
+}
